@@ -7,7 +7,7 @@ This platform runs a model-under-test through a prompt library, scores it with a
 LLM-as-judge, checks for hallucinations, fires known prompt-injection attacks at it,
 and reports everything on a dashboard and in CI.
 
-![CI](https://github.com/USERNAME/ai-qa-platform/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/mvemualk/ai-qa-platform/actions/workflows/ci.yml/badge.svg)
 
 ## Pipeline
 
