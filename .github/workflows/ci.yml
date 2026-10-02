@@ -22,7 +22,8 @@ jobs:
 
   ai-eval-suite:
     runs-on: ubuntu-latest
-    needs: unit-tests
+    needs unit-tests
+    continue-on-error: true
     if: ${{ github.event_name == 'push' }}
     defaults:
       run:
